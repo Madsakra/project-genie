@@ -9,6 +9,9 @@
 
 const {onCall, HttpsError} = require("firebase-functions/v2/https");
 const {logger} = require("firebase-functions/v2");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+
+// const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 
 // Create and deploy your first functions
 // https://firebase.google.com/docs/functions/get-started
